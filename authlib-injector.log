@@ -1,0 +1,21 @@
+Logging started at 2023-05-31T01:39:15.602Z
+[authlib-injector] [INFO] Version: 1.2.2
+[authlib-injector] [INFO] Authentication server: https://alpha.illlab.cc/api/yggdrasil
+[authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
+[authlib-injector] [INFO] Enable MC-52974 Workaround
+[authlib-injector] [INFO] Enable MC-52974 Workaround for 1.7.10
+[authlib-injector] [INFO] Httpd is running on port 1711
+[authlib-injector] [INFO] Transformed [net.minecraft.client.entity.AbstractClientPlayer] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [net.minecraft.util.Session] with [1.7.10 MC-52974 Workaround (Session)]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Texture Whitelist Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [MC-52974 Workaround]
+[authlib-injector] [INFO] Transformed [com.emoniph.witchery.entity.EntityReflection] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [ftb.lib.FTBLib] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [net.minecraft.network.play.server.S0CPacketSpawnPlayer] with [1.7.10 MC-52974 Workaround (S0CPacketSpawnPlayer)]
+[authlib-injector] [INFO] Transformed [com.emoniph.witchery.common.ExtendedPlayer] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [net.laurus.nettyfix.utils.NettyUtils$BlockedServers] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.patchy.BlockedServers] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
+[authlib-injector] [INFO] Transformed [journeymap.client.render.texture.TextureCache] with [Constant URL Transformer]
