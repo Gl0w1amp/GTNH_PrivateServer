@@ -1,0 +1,58 @@
+Logging started at 2023-06-26T11:36:55.926Z
+[authlib-injector] [INFO] Version: 1.2.3
+[authlib-injector] [INFO] Authentication server: https://skin.neontube.cc/api/yggdrasil
+[authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
+[authlib-injector] [INFO] Enable MC-52974 Workaround
+[authlib-injector] [INFO] Enable MC-52974 Workaround for 1.7.10
+[authlib-injector] [INFO] Httpd is running on port 6956
+[authlib-injector] [INFO] Transformed [net.minecraft.client.entity.AbstractClientPlayer] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [net.minecraft.util.Session] with [1.7.10 MC-52974 Workaround (Session)]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Texture Whitelist Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [MC-52974 Workaround]
+[authlib-injector] [INFO] Transformed [com.emoniph.witchery.entity.EntityReflection] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [ftb.lib.FTBLib] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [net.minecraft.network.play.server.S0CPacketSpawnPlayer] with [1.7.10 MC-52974 Workaround (S0CPacketSpawnPlayer)]
+[authlib-injector] [INFO] Transformed [com.emoniph.witchery.common.ExtendedPlayer] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [net.laurus.nettyfix.utils.NettyUtils$BlockedServers] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.patchy.BlockedServers] with [Constant URL Transformer]
+[authlib-injector] [WARNING] Reverse proxy error
+java.net.UnknownHostException: skin.neontube.cc
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
+	at sun.net.www.protocol.http.HttpURLConnection.access$100(HttpURLConnection.java:91)
+	at sun.net.www.protocol.http.HttpURLConnection$8.run(HttpURLConnection.java:1301)
+	at sun.net.www.protocol.http.HttpURLConnection$8.run(HttpURLConnection.java:1299)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1298)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:259)
+	at moe.yushi.authlibinjector.httpd.URLProcessor.reverseProxy(URLProcessor.java:192)
+	at moe.yushi.authlibinjector.httpd.URLProcessor.access$400(URLProcessor.java:47)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:158)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.lang.Thread.run(Thread.java:748)
+
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
+[authlib-injector] [INFO] Transformed [journeymap.client.render.texture.TextureCache] with [Constant URL Transformer]

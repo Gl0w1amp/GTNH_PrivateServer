@@ -1,0 +1,22 @@
+[ 06-26 19:36:56.803 INFO  ] [McPatchClient] RAM: 15.05 MB
+[ 06-26 19:36:56.808 INFO  ] [McPatchClient] Graphics Mode: true
+[ 06-26 19:36:56.809 INFO  ] [McPatchClient] Standalone: false
+[ 06-26 19:36:56.809 INFO  ] [McPatchClient] Updating Directory:   E:/GTNH_Client
+[ 06-26 19:36:56.809 INFO  ] [McPatchClient] Working Directory:    E:/GTNH_Client/.minecraft
+[ 06-26 19:36:56.809 INFO  ] [McPatchClient] Executable Directory: E:/GTNH_Client/.minecraft
+[ 06-26 19:36:56.812 INFO  ] [McPatchClient] Application Version:  1.1.3 (184c850c3a782a813ddf15e43248aa936e362864)
+[ 06-26 19:36:56.812 INFO  ] [McPatchClient] Java virtual Machine: Oracle Corporation 1.8.0_202
+[ 06-26 19:36:56.813 INFO  ] [McPatchClient] Operating System: Windows 10 10.0 amd64
+[ 06-26 19:36:58.735 DEBUG ] [McPatchClient] http request on https://cdn.illws.cc/versions.txt
+[ 06-26 19:36:58.958 DEBUG ] [McPatchClient] all versions: 
+[ 06-26 19:36:58.959 DEBUG ] [McPatchClient]   - 2.3.0.0
+[ 06-26 19:36:58.959 DEBUG ] [McPatchClient]   - 2.3.0.1
+[ 06-26 19:36:58.959 DEBUG ] [McPatchClient]   - 2.3.0.2
+[ 06-26 19:36:58.959 DEBUG ] [McPatchClient]   - 2.3.0.3
+[ 06-26 19:36:58.959 DEBUG ] [McPatchClient]   - 2.3.0.4
+[ 06-26 19:36:58.960 DEBUG ] [McPatchClient]   - v2.3.0.5
+[ 06-26 19:36:58.960 INFO  ] [McPatchClient] current version: v2.3.0.5, newest version: v2.3.0.5
+[ 06-26 19:36:58.960 INFO  ] [McPatchClient] no missing versions and all files is up-to-date!
+[ 06-26 19:36:58.960 INFO  ] [McPatchClient] continue to start Minecraft!
+[ 06-26 19:36:58.973 INFO  ] [McPatchClient] RAM: 17.76 MB
+[ 06-26 19:36:58.974 INFO  ] [McPatchClient] finished!
